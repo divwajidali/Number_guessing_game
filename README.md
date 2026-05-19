@@ -96,3 +96,44 @@ You can improve this project by adding:
 Python Beginner Developer 🚀
 
 ---
+Create a cross-platform command-line bulk file renaming tool in Python that works on Windows, Linux, and macOS terminals. The application should help users quickly rename large numbers of files using different customizable renaming methods while maintaining a simple and user-friendly CLI experience.
+Main Features
+Rename multiple files in a selected folder at once
+Add prefixes or suffixes to filenames
+Automatically number files sequentially
+Find and replace specific text in filenames
+Convert filenames to lowercase, uppercase, or title case
+Change file extensions (e.g. .jpeg to .jpg)
+Rename only specific file types if needed
+Support recursive renaming inside subfolders (optional)
+User Experience
+Show a preview of filename changes before renaming
+Ask for confirmation before applying changes
+Display clear success and error messages
+Handle duplicate filenames safely to avoid overwriting files
+Optionally provide undo functionality to restore original names
+Technical Requirements
+Built entirely in Python
+Works in Windows Command Prompt, Linux Terminal, and macOS Terminal
+Use standard libraries such as:
+pathlib
+argparse
+os
+json
+Follow clean and modular code structure
+Include proper error handling for invalid paths or permission issues
+Example Usage
+Bash
+python bulkrename.py --prefix vacation_
+Bash
+python bulkrename.py --replace IMG Photo
+Bash
+python bulkrename.py --number 001
+Learning Goals
+This project should help improve skills in:
+File handling
+Command-line interface development
+Python scripting
+Cross-platform compatibility
+Error handling and validation
+Writing clean and maintainable code
